@@ -1,0 +1,112 @@
+{{ header }}
+
+<main class="main">
+    <div class="wrapper">
+        <div class="about">
+            <div class="about__square"></div>
+            <div class="container">
+                <div class="about__title title">
+                    <h2>about cracker</h2>
+                    <img src="{{ theme_url }}/image/cracker.png" alt="Cracker">
+                </div>
+                <div class="row">
+                    <div class="col-8 offset-3">
+                        <div class="about__text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, architecto beatae vitae dicta sunt explicabo. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__logo logo">Cracker</div>
+            </div>
+        </div>
+        <div class="constructor">
+            <div class="container">
+                <div class="constructor__title title">Cracker constructor</div>
+                <div class="row">
+                    <div class="col-4 offset-6">
+                        <div class="constructor__value">current value: 143 &euro;</div>
+                    </div>
+                </div>
+                <form action="" class="constructor__form form">
+                    <div class="form-row">
+                        <div class="col-1">
+                            <div class="form__img">
+                                <img class="form__img-product" src="{{ theme_url }}/image/soybean.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-8 offset-1 d-flex">
+                            <input type="range" value="20" class="form__range form__range--soybean">
+                        </div>
+                        <div class="col-1 offset-1 d-flex">
+                            <div class="form__value">20%</div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-1">
+                            <div class="form__img">
+                                <img class="form__img-product" src="{{ theme_url }}/image/sesame.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-8 offset-1 d-flex">
+                            <input type="range" value="20" class="form__range form__range--sesame">
+                        </div>
+                        <div class="col-1 offset-1 d-flex">
+                            <div class="form__value">20%</div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-1">
+                            <div class="form__img">
+                                <img class="form__img-product" src="{{ theme_url }}/image/wheat.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-8 offset-1 d-flex">
+                            <input type="range" value="20" class="form__range form__range--wheat">
+                        </div>
+                        <div class="col-1 offset-1 d-flex">
+                            <div class="form__value">20%</div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-1">
+                            <div class="form__img">
+                                <img class="form__img-product" src="{{ theme_url }}/image/corn.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-8 offset-1 d-flex">
+                            <input type="range" class="form__range form__range--corn" readonly>
+                        </div>
+                        <div class="col-1 offset-1 d-flex">
+                            <div class="form__value">0%</div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-1">
+                            <div class="form__img">
+                                <img class="form__img-product" src="{{ theme_url }}/image/pacage.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-8 offset-1 d-flex">
+                            <select class="form__select">
+                                <option value="" disabled selected>choose your pack</option>
+                                <option value="small">small pack</option>
+                                <option value="medium">medium pack</option>
+                                <option value="large">large pack</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row no-gutters form__bottom">
+                        <div class="col-1 offset-11">
+                            <div class="button form__button">
+                                <span>+</span>
+                                <input type="submit" class="button form__submit" value="add to cart">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+
+{{ footer }}
